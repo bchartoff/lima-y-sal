@@ -54,6 +54,8 @@ d3.select(window)
 
 d3.select(window)
 	.on("scroll",function(){
+		leftGutter = getLeftGutter();
+		rightGutter = getRightGutter();
 		d3.select("#bg1")
 			.style("left",function(){
 				return Math.max(leftGutter, (window.innerWidth - this.getBoundingClientRect().width)*.5-1*window.scrollY) + "px"
