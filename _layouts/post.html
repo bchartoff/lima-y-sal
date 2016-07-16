@@ -11,5 +11,8 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+{% for category in post.categories %}
+    <div class="categories-title"><a href="/tags/#{{ category | first }}">{{ category | first }}</a></div>   
+{% endfor %}
 
 </article>

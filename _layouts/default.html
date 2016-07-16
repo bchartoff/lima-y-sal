@@ -2,23 +2,34 @@
 <html>
 
   {% include head.html %}
-
   <body>
-  <img id = "bg1" src = "assets/bg_purple.png">
-  <img id = "bg2" src = "assets/bg_yellow.png">
-  
+
+    <img class = "bg" id = "bg2" src = "/assets/bg_yellow.png">
+    <img class = "bg" id = "bg1" src = "/assets/bg_purple.png">
+
     {% include header.html %}
 
     <div class="page-content" id = "default-content">
       <div class="wrapper">
         {{ content }}
       </div>
+
     </div>
 
+
     <!-- {% include footer.html %} -->
-  <script src = "assets/js/vendor/d3.v3.min.js"></script>
-  <script src = "assets/js/vendor/jquery-1.12.4.min.js"></script>
-  <script src = "assets/js/main.js"></script>
+  <script src = "/assets/js/vendor/d3.v3.min.js"></script>
+  <script src = "/assets/js/vendor/jquery-1.12.4.min.js"></script>
+  {% if page.id %}
+    <script>
+      $(function() {
+        window.scrollTo(0,window.innerWidth);
+      });
+    </script>
+  {% else %}
+    
+  {% endif %}
+  <script src = "/assets/js/main.js"></script>
 
   </body>
 
