@@ -11,17 +11,18 @@ var getRightGutter = function(){
 var leftGutter = getLeftGutter();
 var rightGutter = getRightGutter();
 
-d3.select("#bg1")
-	.style("left", function(){
-		console.log( (window.innerWidth - this.getBoundingClientRect().width)*.5)
-		return (window.innerWidth - this.getBoundingClientRect().width)*.5 + "px"
-	})
-d3.select("#bg2")
-	.style("left", function(){
-		console.log( (window.innerWidth - this.getBoundingClientRect().width)*.5)
-		return (window.innerWidth - this.getBoundingClientRect().width)*.5 + "px"
-	})
-
+$(document).ready(function(){
+	d3.select("#bg1")
+		.style("left", function(){
+			console.log( (window.innerWidth - this.getBoundingClientRect().width)*.5)
+			return (window.innerWidth - this.getBoundingClientRect().width)*.5 + "px"
+		})
+	d3.select("#bg2")
+		.style("left", function(){
+			console.log( (window.innerWidth - this.getBoundingClientRect().width)*.5)
+			return (window.innerWidth - this.getBoundingClientRect().width)*.5 + "px"
+		})
+})
 d3.select(window)
 	.on("resize", function(){
 		leftGutter = getLeftGutter();
