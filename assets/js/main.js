@@ -8,55 +8,35 @@ var getRightGutter = function(){
 	var bg_width = d3.select("#bg1").node().getBoundingClientRect().width
 	return right
 }
-var leftGutter = getLeftGutter();
-var rightGutter = getRightGutter();
+
 
 $(document).ready(function(){
-    window.scrollTo(0,window.innerWidth);
-	d3.select("#bg1")
-		.style("left", function(){
-			console.log( (window.innerWidth - this.getBoundingClientRect().width)*.5)
-			return (window.innerWidth - this.getBoundingClientRect().width)*.5 + "px"
-		})
-	d3.select("#bg2")
-		.style("left", function(){
-			console.log( (window.innerWidth - this.getBoundingClientRect().width)*.5)
-			return (window.innerWidth - this.getBoundingClientRect().width)*.5 + "px"
-		})
-})
 d3.select(window)
 	.on("resize", function(){
-		leftGutter = getLeftGutter();
-		rightGutter = getRightGutter();
-
+		var leftGutter = getLeftGutter();
+		var rightGutter = getRightGutter();
+//responsive test, if taller than wide then change this to innerHeight
+		var buff = Math.max(window.innerWidth, window.innerHeight)
 		d3.selectAll(".page-content")
 			.style("margin-top", function(){
-				return window.innerWidth + "px";
+				return buff + "px";
 			})
 			.style("margin-bottom", function(){
-				return window.innerWidth/4	 + "px";
+				return buff/2	 + "px";
+			})
+		d3.select("#bg1")
+			.style("left",function(){
+				return Math.max(leftGutter, (window.innerWidth - this.getBoundingClientRect().width)*.5-1*window.scrollY) + "px"
+			})
+		d3.select("#bg2")
+			.style("left",function(){
+				return Math.min(rightGutter, (window.innerWidth - this.getBoundingClientRect().width)*.5+1*window.scrollY) + "px"
 			})
 
 	})
-	d3.selectAll(".page-content")
-		.style("margin-top", function(){
-			return window.innerWidth + "px";
-		})
-		.style("margin-bottom", function(){
-			return window.innerWidth/4 + "px";
-		})
-
-
-// $(document).on("load",function(){
-// 	if($(".post-list") == null){
-// 		window.scrollTo(0,window.innerWidth)
-// 	}
-// })
-
-d3.select(window)
 	.on("scroll",function(){
-		leftGutter = getLeftGutter();
-		rightGutter = getRightGutter();
+		var leftGutter = getLeftGutter();
+		var rightGutter = getRightGutter();
 		d3.select("#bg1")
 			.style("left",function(){
 				return Math.max(leftGutter, (window.innerWidth - this.getBoundingClientRect().width)*.5-1*window.scrollY) + "px"
@@ -74,3 +54,51 @@ d3.select(window)
 				return f(window.scrollY/window.innerHeight*.5)
 			})
 	})
+	// var leftGutter = getLeftGutter();
+	// var rightGutter = getRightGutter();
+	var buff = Math.max(window.innerWidth, window.innerHeight)
+
+	d3.selectAll(".page-content")
+		// .transition()
+		// .duration(2000)
+//responsive test, if taller than wide then change this to innerHeight
+		.style("margin-top", function(){
+			return buff + "px";
+		})
+		.style("margin-bottom", function(){
+			return buff/2 + "px";
+		})
+		if($(".rss-subscribe").length == 0){
+			$("html, body").animate({scrollTop: window.innerWidth, opacity:1 }, 300);
+		}else{
+				d3.select("#bg1")
+					.style("left", function(){
+						console.log( (window.innerWidth - this.getBoundingClientRect().width)*.5)
+						return (window.innerWidth - this.getBoundingClientRect().width)*.5 + "px"
+					})
+				d3.select("#bg2")
+					.style("left", function(){
+						console.log( (window.innerWidth - this.getBoundingClientRect().width)*.5)
+						return (window.innerWidth - this.getBoundingClientRect().width)*.5 + "px"
+					})
+			$("html, body").animate({ opacity:1 }, 300);
+		}
+
+
+		// .each("end", function(){
+				// d3.select("#bg1")
+				// 	.style("left", function(){
+				// 		console.log( (window.innerWidth - this.getBoundingClientRect().width)*.5)
+				// 		return (window.innerWidth - this.getBoundingClientRect().width)*.5 + "px"
+				// 	})
+				// d3.select("#bg2")
+				// 	.style("left", function(){
+				// 		console.log( (window.innerWidth - this.getBoundingClientRect().width)*.5)
+				// 		return (window.innerWidth - this.getBoundingClientRect().width)*.5 + "px"
+				// 	})
+
+			    // window.scrollTo(0,window.innerWidth);
+		// })
+
+
+})

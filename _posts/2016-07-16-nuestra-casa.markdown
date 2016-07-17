@@ -24,7 +24,7 @@ The living room also has this balcony! We're planning on planting some herbs in 
 Our bedroom is also lovely. Our landlord has pretty great taste.
 
 ![](/lima-y-sal/assets/img/nuestra_casa/bedroom.jpg)
-*The nightstand with all the cool stuff on it is mine*
+*Cozy Lima winter*
 
 And there's a second bedroom! This is where you'll be staying when you come visit. Stylish, roomy, a great home base for you Lima adventures. Come visit, seriously, look how great this bedroom is. It's also my office, and Natalie's clothes room.
 
