@@ -69,7 +69,7 @@ d3.select(window)
 			return buff/2 + "px";
 		})
 		if($(".rss-subscribe").length == 0){
-			$("html, body").animate({scrollTop: window.innerWidth, opacity:1 }, 300);
+			$("html, body").animate({scrollTop: window.innerWidth, opacity:1 }, 600);
 		}else{
 				d3.select("#bg1")
 					.style("left", function(){
@@ -81,7 +81,7 @@ d3.select(window)
 						console.log( (window.innerWidth - this.getBoundingClientRect().width)*.5)
 						return (window.innerWidth - this.getBoundingClientRect().width)*.5 + "px"
 					})
-			$("html, body").animate({ opacity:1 }, 300);
+			$("html, body").animate({ opacity:1 }, 600);
 		}
 
 
