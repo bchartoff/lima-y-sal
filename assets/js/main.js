@@ -12,6 +12,7 @@ var leftGutter = getLeftGutter();
 var rightGutter = getRightGutter();
 
 $(document).ready(function(){
+    window.scrollTo(0,window.innerWidth);
 	d3.select("#bg1")
 		.style("left", function(){
 			console.log( (window.innerWidth - this.getBoundingClientRect().width)*.5)
