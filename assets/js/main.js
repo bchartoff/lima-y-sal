@@ -1,11 +1,11 @@
 var getLeftGutter = function(){
 	var left = d3.select(".wrapper").node().getBoundingClientRect().left
-	var bg_width = d3.select("#bg1").node().getBoundingClientRect().width
+	var bg_width = window.innerHeight*1.5709
 	return left-bg_width
 }
 var getRightGutter = function(){
 	var right = d3.select(".wrapper").node().getBoundingClientRect().right
-	var bg_width = d3.select("#bg1").node().getBoundingClientRect().width
+	// var bg_width = d3.select("#bg1").node().getBoundingClientRect().width
 	return right
 }
 
