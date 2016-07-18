@@ -71,9 +71,17 @@ d3.select(window)
 
 			d3.select("body")
 				.style("background","#ffffff")
-			$("body, html").animate({scrollTop: buff});
+			$("body, html").delay(300).animate({scrollTop: buff});
+			// window.scrollTo(buff,0)
 
 		}else{
+						d3.selectAll(".page-content")
+				.style("margin-top", function(){
+					return buff + "px";
+				})
+				.style("margin-bottom", function(){
+					return buff/2 + "px";
+				})
 				d3.select("#bg1")
 					.style("left", function(){
 						console.log( (window.innerWidth - this.getBoundingClientRect().width)*.5)
