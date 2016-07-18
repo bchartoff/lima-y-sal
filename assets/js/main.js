@@ -25,11 +25,11 @@ d3.select(window)
 			})
 		d3.select("#bg1")
 			.style("left",function(){
-				return Math.max(leftGutter, (window.innerWidth - this.getBoundingClientRect().width)*.5-1*window.scrollY) + "px"
+				return Math.max(leftGutter, (window.innerWidth - window.innerHeight*1.5709)*.5-1*window.scrollY) + "px"
 			})
 		d3.select("#bg2")
 			.style("left",function(){
-				return Math.min(rightGutter, (window.innerWidth - this.getBoundingClientRect().width)*.5+1*window.scrollY) + "px"
+				return Math.min(rightGutter, (window.innerWidth - window.innerHeight*1.5709)*.5+1*window.scrollY) + "px"
 			})
 
 	})
@@ -38,11 +38,11 @@ d3.select(window)
 		var rightGutter = getRightGutter();
 		d3.select("#bg1")
 			.style("left",function(){
-				return Math.max(leftGutter, (window.innerWidth - this.getBoundingClientRect().width)*.5-1*window.scrollY) + "px"
+				return Math.max(leftGutter, (window.innerWidth - window.innerHeight*1.5709)*.5-1*window.scrollY) + "px"
 			})
 		d3.select("#bg2")
 			.style("left",function(){
-				return Math.min(rightGutter, (window.innerWidth - this.getBoundingClientRect().width)*.5+1*window.scrollY) + "px"
+				return Math.min(rightGutter, (window.innerWidth - window.innerHeight*1.5709)*.5+1*window.scrollY) + "px"
 			})
 
 		d3.select("body")
@@ -85,16 +85,16 @@ d3.select(window)
 					return buff/2 + "px";
 				})
 				.each("end", function(){
-				d3.select("#bg1")
-					.style("left", function(){
-						console.log( (window.innerWidth - this.getBoundingClientRect().width)*.5)
-						return (window.innerWidth - this.getBoundingClientRect().width)*.5 + "px"
-					})
-				d3.select("#bg2")
-					.style("left", function(){
-						console.log( (window.innerWidth - this.getBoundingClientRect().width)*.5)
-						return (window.innerWidth - this.getBoundingClientRect().width)*.5 + "px"
-					})
+					d3.select("#bg1")
+						.style("left", function(){
+							console.log( (window.innerWidth - window.innerHeight*1.5709)*.5)
+							return (window.innerWidth - window.innerHeight*1.5709)*.5 + "px"
+						})
+					d3.select("#bg2")
+						.style("left", function(){
+							console.log( (window.innerWidth - window.innerHeight*1.5709)*.5)
+							return (window.innerWidth - window.innerHeight*1.5709)*.5 + "px"
+						})
 				})
 		}
 })
