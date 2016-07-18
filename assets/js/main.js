@@ -75,13 +75,16 @@ d3.select(window)
 			// window.scrollTo(buff,0)
 
 		}else{
-						d3.selectAll(".page-content")
+				d3.selectAll(".page-content")
+				.transition()
+				.duration(10)
 				.style("margin-top", function(){
 					return buff + "px";
 				})
 				.style("margin-bottom", function(){
 					return buff/2 + "px";
 				})
+				.each("end", function(){
 				d3.select("#bg1")
 					.style("left", function(){
 						console.log( (window.innerWidth - this.getBoundingClientRect().width)*.5)
@@ -92,5 +95,6 @@ d3.select(window)
 						console.log( (window.innerWidth - this.getBoundingClientRect().width)*.5)
 						return (window.innerWidth - this.getBoundingClientRect().width)*.5 + "px"
 					})
+				})
 		}
 })
