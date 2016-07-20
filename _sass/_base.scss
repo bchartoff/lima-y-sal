@@ -52,7 +52,14 @@ img.bg {
 .post .post-content p img{
     margin: 0 auto;
     display: block;
-    max-height: 300px;
+    max-width: 500px;
+}
+@media (max-width:500px){
+    .post .post-content p img{
+        margin: 0 auto;
+        display: block;
+        width: 90%;
+    }
 }
 
 img + em {
