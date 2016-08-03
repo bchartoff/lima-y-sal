@@ -26,11 +26,11 @@ The hike up was absurdly slow going, but the run down was too much fun. I'm also
 
 Saturday, we did a dune buggy tour in the desert. It was like a roller coaster ride, but off the tracks. Our driver took us tearing across the sand, careening around banked curves, or creeping up a dune face then cresting the ridge and plumetting down the other side. We showed up early to get the front row seats, next to the driver, and Natalie chatted with him in Spanish. The conversations went something like this:
 
- **Natalie:** &iexcl;Mas rapido!
+ **Natalie:** &iexcl;M&aacute;s r&aacute;pido!
 
- **Driver:** &iquest;Mas radido?
+ **Driver:** &iquest;M&aacute;s r&aacute;pido?
 
- **Natalie:** &iexcl;Mas rapidoooo!
+ **Natalie:** &iexcl;M&aacute;s r&aacute;pidoooo!
 
  **Ben:** *Shrieks, drowned out by revving motor*
 

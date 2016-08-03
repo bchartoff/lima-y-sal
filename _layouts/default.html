@@ -12,10 +12,12 @@
     <div class="page-content" id = "default-content">
       <div class="wrapper">
         {{ content }}
+  {% if page.id %}
+  <div><a href = "/lima-y-sal/">View all posts</a>
+  {% endif %}
       </div>
 
     </div>
-
 
     <!-- {% include footer.html %} -->
   <script src = "/lima-y-sal/assets/js/vendor/d3.v3.min.js"></script>
