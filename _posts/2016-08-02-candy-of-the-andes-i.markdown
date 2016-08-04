@@ -30,9 +30,9 @@ One more in the alien egg family, tumbo (called banana passionfruit in English) 
 ![](/lima-y-sal/assets/img/candy1/tumbo2.JPG)
 *I guess they're kinda shaped like bananas?*
 
-<h3>Guyaba</h3>
+<h3>Guayaba</h3>
 
-So I know guava are in the US too, but they're not something I often eat (and certainly not this cheap). Lots of heard seeds, like tumbo, so in retrospect we should have strained this into juice when we were making smoothies (I make us smoothies every morning with frozen fruit and milk&mdash;it's a habit from the US, but it's a lot more fun down here). Not a super strong flavor, but the texture is really, really nice. Crazy creamy, like custard. Definitely need to figure out how to work this into a dessert of some kind.
+So I know guava are in the US too, but they're not something I often eat (and certainly not this cheap). Lots of hard seeds, like tumbo, so in retrospect we should have strained this into juice when we were making smoothies (I make us smoothies every morning with frozen fruit and milk&mdash;it's a habit from the US, but it's a lot more fun down here). Not a super strong flavor, but the texture is really, really nice. Crazy creamy, like custard. Definitely need to figure out how to work this into a dessert of some kind.
 
 ![](/lima-y-sal/assets/img/candy1/guyaba1.JPG)
 ![](/lima-y-sal/assets/img/candy1/guyaba2.JPG)
