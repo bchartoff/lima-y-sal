@@ -53,5 +53,5 @@ And for second dessert we went to one of our favorite spots in the city, Blu. Se
 ![](/lima-y-sal/assets/img/canta-rana/blu.jpg)
 *We try to go weekly*
 
-Great day of great food with great friends.
+Great day of great food with great company.
 
