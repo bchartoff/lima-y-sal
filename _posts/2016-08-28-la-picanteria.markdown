@@ -27,18 +27,18 @@ Next was a sudado, or soup, made with aj&iacute; amarillo, a super flavorful but
 Along with the sudado, we had a pan fried filet of cabrillo. We forgot to take a picture, so I grabbed a picture from a stranger off the internet. It more or less looked like this&mdash;crispy skinned fish (from the opposite side as the ceviche), on top of fried yuca and boiled sweet potato chunks, with a sauce which was, basically, a few ladlefuls of sudado broth (our dish had much more sauce than in this picture), plus a stick of butter and some garlic. It was not undelicious.
 
 ![](/lima-y-sal/assets/img/la-picanteria/filet.JPG)
-*I know, not the artful photography you expect from Lima y Sal. Blame rando internet photographer.*
+*I know, not the artful photography you expect from Lima y Sal. Blame [rando internet photographer](https://www.tripadvisor.com/ShowUserReviews-g294316-d3781380-r381732791-La_Picanteria-Lima_Lima_Region.html#UR381732791).*
 
 It was just such an exciting and scrumptious way to share a whole fish. We are definitely, definitely going back.
 
-Also forgot to snap a picture of some grilled scallops, which were served with little potato fritters and a salsa of very small diced red onion with aj&iactute; and lime (the same ingredients as salsa criolla, which goes with basically everything, but with different knife cuts). They were super mega delicious, as well.
+Also forgot to snap a picture of some grilled scallops, which were served with little potato fritters and a salsa of very small diced red onion with aj&iacute; and lime (the same ingredients as salsa criolla, which goes with basically everything, but with different knife cuts). They were super mega delicious, as well.
 
 One of many reasons we need to return to La Picanter&iacute;a is to try their erizos (sea urchin). They had a huge blackboard advertising their amazing local sea urchin, and I've heard it's a specialty of the restaurant, but they'd sold out by the time we arrived at two-ish. Lots of preparations available, but I hear the tortilla (which they use here to both describe a Spanish tortilla, really closer to a frittata, as well as any omelet) is amazing. OH WELL GUESS WE NEED TO GO BACK.
 
 It's a great atmosphere too, the communal tables meant that we chatted with folks on both sides of us (something I might normally find annoying, but it just felt right here&mdash;bonding through culinary jollification), and we didn't feel for a minute like locals.
 
 ![](/lima-y-sal/assets/img/la-picanteria/interior.JPG)
-*Another photo stolen from the internet...We were not the best documenters*
+*Another photo [stolen from the internet](https://pickuptheforkbuenosaires.files.wordpress.com/2013/10/img_1886.jpg)...We were not the best documenters*
 
 As a contrast, Nat and I had a date night a few weeks ago at Fiesta, Hector Solis' other Lima restaurant, and while the food was great (in particular a ceviche a la brasa&mdash;fish and erizo slow cooked over hot coals with ceviche flavors), the atmosphere was a little anemic. White table cloths, pushy waiters, and gringoes as far as the eye could see.
 
